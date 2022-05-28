@@ -19,7 +19,7 @@
     "reactstrap": "^9.0.2",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://yourgithubname.github.io/trybetunes",
+  "homepage": "https://Igor-Alex-Casto.github.io/trybetunes",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
