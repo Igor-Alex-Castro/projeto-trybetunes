@@ -1,0 +1,17 @@
+.backgrung-nav{
+  background-color:rgb(43, 202, 149);
+ 
+}
+.navbar-light .navbar-brand{
+  color: white !important;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.titleName{
+  display: flex;
+  justify-content: center;
+}
+.navbar-toggler-icon{
+  color: white !important;
+}

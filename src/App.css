@@ -1,0 +1,13 @@
+.TitleName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(43, 202, 149);
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  
+}

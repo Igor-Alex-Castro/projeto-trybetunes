@@ -1,0 +1,124 @@
+.input-control:focus{
+  box-shadow: 3px 3px rgb(43, 202, 149) !important;
+  /*box-shadow: 0 0 0.5em rgb(43, 202, 149);*/
+  border: solid 1px rgb(43, 202, 149) ;
+}
+.buttonPesquisa{
+  background-color:rgb(43, 202, 149) !important;
+  border-color: rgb(43, 202, 149) !important;
+}
+.titleSeach{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.warning{
+  color:rgb(202, 43, 43) !important ;
+ display: flex;
+ justify-content: center;
+}
+.page-search{
+  width: 100vw;
+  height: 100vh;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
+.form h1 {
+  display: flex;
+  justify-content: center;
+}
+.formAll{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.Cards{
+  display: flex;
+  justify-content: baseline;
+}
+.container-fotos{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around
+}
+.cardsfotos{
+  
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px  rgb(43, 202, 149) !important ;
+  padding: 0 5px ;
+  overflow: hidden;
+  box-shadow: 5px 5px rgb(43, 202, 149) !important;
+}
+.cardsfotos:hover{
+  box-shadow: 15px 15px rgb(25, 116, 85) !important;
+  /*box-shadow: 0 0 0.5em rgb(43, 202, 149);*/
+  -webkit-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -moz-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -o-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  /* easeInOutExpo */
+  -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+}
+
+.cardImg{
+  width: 390px;
+
+}
+li {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.buttonAlbum{
+  background-color: rgb(43, 202, 149) !important;
+  border-color: rgb(43, 202, 149) !important;
+}
+.btn-primary:disabled {
+ 
+    background-color: rgb(21, 38, 32);
+    border-color: rgb(21, 38, 32);
+}
+@media screen and (max-width: 1334px) {
+  .cardsfotos{
+    width: 30%;
+    height: 30%;
+  }
+  .cardImg{
+    width: 300px;
+  
+  }
+}
+@media screen and (max-width: 630px) {
+  .cardsfotos{
+    width: 40%;
+    height: 40%;
+  }
+  .cardImg{
+    width: 250px;
+  
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardsfotos{
+    width: 90%;
+    height: 90%;
+  }
+  .cardImg{
+    width: 350px;
+  
+  }
+}

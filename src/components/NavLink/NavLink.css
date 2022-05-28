@@ -1,0 +1,24 @@
+.AllLinks{
+  width: 100%;
+  display: flex;
+  justify-content:right
+}
+.responsive-navbar-nav{
+  color: white !important;
+}
+.navLiks{
+  color: white !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 0 10px;
+  
+}
+.navLiks:hover{
+  color: white !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: rgb(21, 138, 99);
+  border-radius: 10px;
+}

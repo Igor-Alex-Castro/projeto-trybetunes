@@ -1,0 +1,31 @@
+.dada-user-name, .data-user-email, .data-user-description {
+  display: flex;
+  justify-content: center;
+}
+.profile-image{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.data-user-img{
+  display: flex;
+  justify-content: center;
+}
+.card-profile {
+ border: solid 1px rgb(43, 202, 149);
+ width: 500px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ border-radius:10px;
+ box-shadow: 3px 3px rgb(43, 202, 149) !important;
+}
+.content-profile{
+  display: flex;
+  justify-content: center;
+}
+a:hover{
+  background-color: rgb(25, 116, 85) !important;
+}

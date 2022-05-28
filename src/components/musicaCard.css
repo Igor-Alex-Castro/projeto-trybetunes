@@ -1,0 +1,48 @@
+
+
+audio::-webkit-media-controls-panel {
+  appearance: -internal-media-control;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  user-select: none;
+  border-radius: 2px !important;
+  z-index: 0;
+  bottom: auto;
+  min-width: 48px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 1;
+  align-items: center;
+  overflow: hidden;
+  flex: 1 1 0%;
+  width: 20% !important;
+ background-color: rgb(43, 202, 149)!important;
+  transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  
+  padding: 0px 10px;
+}
+input[pseudo="-webkit-media-controls-timeline" i]::-internal-track-segment-highlight-after {
+  height: 4px;
+  position: absolute;
+  border-radius: 2px;
+  background: white !important;
+}
+.track-name{
+  display: flex;
+  justify-content: center;
+}
+.label-check-box{
+  display: flex;
+  justify-content: center;
+}
+.track-name{
+  display: flex;
+  justify-content: center;
+}
+input:checked{
+  background-color: rgb(43, 202, 149)!important;;
+  width: 25px;
+  height: 25px;
+}

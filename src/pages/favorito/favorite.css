@@ -1,0 +1,19 @@
+.musicasAdio{
+  
+  border: solid 1px rgb(43, 202, 149);
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.musicas {
+  display: flex;
+  
+  justify-content: center;
+}
+.check-box{
+  margin: 4px !important;
+}

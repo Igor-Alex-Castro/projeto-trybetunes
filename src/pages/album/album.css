@@ -1,0 +1,9 @@
+.album-cards{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around
+}
+.album-name, .artist-name {
+  display: flex;
+  justify-content: center;
+}
