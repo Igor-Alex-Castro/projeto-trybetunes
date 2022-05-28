@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
 
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL} >
         <Switch>
           <Route exact path="/" component={ Login } />
           <Route path="/search" component={ Search } />
