@@ -36,7 +36,7 @@ class Favorites extends React.Component {
           <section>
             { isLoading ? <Loading />
               : (
-                <div className="CARDS CARDS-1">
+                <div className="CARDS">
                   {
                     listFav.map((music, index) => (
                       <MusicCard
