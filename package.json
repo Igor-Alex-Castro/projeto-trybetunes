@@ -1,5 +1,5 @@
 {
-  "name": "trybetunes",
+  "name": "projeto-trybetunes",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -19,7 +19,7 @@
     "reactstrap": "^9.0.2",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://Igor-Alex-Casto.github.io/trybetunes",
+  "homepage": "https://Igor-Alex-Casto.github.io/projeto-trybetunes",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
